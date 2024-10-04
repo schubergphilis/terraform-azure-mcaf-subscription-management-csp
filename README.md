@@ -9,7 +9,7 @@ make sure to ask the saas team to whitelist your outgoing ip.
 ```terraform
 
 provider "restful" {
-  base_url = "https://our-csp-app-uri-here"
+  base_url = "https://your-csp-app-uri-here"
 
   header = {
     Content-Type = "application/json"
@@ -20,12 +20,12 @@ provider "restful" {
       {
         in    = "header"
         name  = "x-functions-key"
-        value = var.subscription_vending_function_key
+        value = "x-functions-value"
       },
       {
         in    = "header"
         name  = "x-customer-key"
-        value = var.subscription_vending_customer_key
+        value = "x-customer-value"
       },
     ]
   }
