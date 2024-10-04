@@ -1,7 +1,7 @@
 # terraform-azure-mcaf-subscription-management-csp
 This terraform module will be able to manage subscriptions for CSP agreements.
 
-## how to work with this module, this is very much schuberg philis specific
+## how to work with this module
 
 you need to configure the restful provider.
 make sure to ask the saas team to whitelist your outgoing ip.
