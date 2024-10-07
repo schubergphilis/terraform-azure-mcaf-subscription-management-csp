@@ -1,4 +1,4 @@
-# terraform-azure-mcaf-subscription-management-csp
+# terraform-azure-mcaf-svm-csp
 This terraform module will be able to manage subscriptions for CSP agreements.
 
 ## how to work with this module
